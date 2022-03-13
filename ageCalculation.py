@@ -6,7 +6,7 @@ def input_collector(date):
     data = []
     flag = []
     shift = 0
-    for i in range(len(date_of_birth)):
+    for i in range(len(date)):
         if date[i] == '-':
             flag.append(i)
 
